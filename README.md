@@ -2,7 +2,7 @@
 
 ## 使用方法
 
-[下载](https://github.com/fjnuer/fjnukms/archive/master.zip)、解压后，双击打开`福师大正版Windows、Office 激活脚本（双击打开，然后选是）.bat` 执行文件，弹出授权提示框，选“是”即可。如遇卡顿，请按空格键继续，稍等即可激活完成。
+确保使用**有线接入**福建师范大学校园网，然后 [下载](https://github.com/fjnuer/fjnukms/archive/master.zip) 并解压，双击打开`福师大正版Windows、Office 激活脚本（双击打开，然后选是）.bat` 执行文件，弹出授权提示框，选“是”即可。如遇卡顿，请按空格键继续，稍等即可激活完成。
 
 ![](img/fjnukms.png)
 
@@ -48,17 +48,25 @@ wmic os get caption
 ### 2.2 获取 KMS 客户端设置的密钥
 前往微软官网的 [KMS Client Setup Keys](https://technet.microsoft.com/en-us/library/jj612867.aspx) 页面获取 KMS 客户端设置的 25 位产品密钥。其中带“N”的版本中不包含 Windows Media Player 播放器，另外家庭版无法用 KMS，因此这里并没有提供家庭版的密钥。
 
-Windows 10 专业版：W269N-WFGWX-YVC9B-4J6C9-T83GX
-Windows 10 企业版：NPPR9-FWDCX-D2C8J-H872K-2YT43
-Windows 10 教育版：NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
-Windows 10 Enterprise 2015 LTSB：WNMTR-4C88C-JK8YV-HQ7T2-76DF9
-Windows 10 Enterprise 2016 LTSB：DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ
+ - Windows 10 专业版：W269N-WFGWX-YVC9B-4J6C9-T83GX  
+ 
+ - Windows 10 企业版：NPPR9-FWDCX-D2C8J-H872K-2YT43  
+ 
+ - Windows 10 教育版：NW6C2-QMPVW-D7KKK-3GKT6-VCFB2  
+ 
+ - Windows 10 Enterprise 2015 LTSB：WNMTR-4C88C-JK8YV-HQ7T2-76DF9  
+ 
+ - Windows 10 Enterprise 2016 LTSB：DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ  
 
-Windows 10 专业版N：MH37W-N47XK-V7XM9-C7227-GCQG9
-Windows 10 企业版N：DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
-Windows 10 教育版N：2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
-Windows 10 Enterprise 2015 LTSB N：2F77B-TNFGY-69QQF-B8YKP-D69TJ
-Windows 10 Enterprise 2016 LTSB N：QFFDN-GRT3P-VKWWX-X7T3R-8B639
+ - Windows 10 专业版N：MH37W-N47XK-V7XM9-C7227-GCQG9  
+ 
+ - Windows 10 企业版N：DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
+ 
+ - Windows 10 教育版N：2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
+ 
+ - Windows 10 Enterprise 2015 LTSB N：2F77B-TNFGY-69QQF-B8YKP-D69TJ
+ 
+ - Windows 10 Enterprise 2016 LTSB N：QFFDN-GRT3P-VKWWX-X7T3R-8B639
 
 例如，Windows 10 专业版（Windows 10 Professional） 对应的是 `W269N-WFGWX-YVC9B-4J6C9-T83GX`。
 
